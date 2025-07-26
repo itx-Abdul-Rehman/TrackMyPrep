@@ -10,7 +10,7 @@ const Navbar = () => {
       {/* Desktop / Main Navbar */}
       <div className="flex justify-between items-center px-6 py-4 md:justify-around relative">
         {/* Logo */}
-        <div className="text-2xl font-semibold text-center">TECHMYPREP</div>
+        <div className="text-2xl font-semibold text-center">TRACKMYPREP</div>
 
         {/* Links (hidden on mobile) */}
         <div className="hidden md:flex justify-around items-center gap-6">
