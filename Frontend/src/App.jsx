@@ -3,7 +3,8 @@ import Navbar from "./components/Navbar"
 import PastPapers from "./components/PastPapers"
 import Register from "./components/Register"
 import WhyTechMyPrep from "./components/WhyTechMyPrep"
-
+import Announcements from './components/Announcements'; 
+import Footer from './components/Footer';
 
 function App() {
  
@@ -12,7 +13,8 @@ function App() {
       <Navbar />
       <Main />
       <WhyTechMyPrep />
-    
+    <Announcements/> 
+    <Footer/>
     </div>
   )
 }
